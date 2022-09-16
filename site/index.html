@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    
+   <div id="form" class="form">
+      <img src="https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png" class="page-img"  alt="">
+        <input type="Number" placeholder="Nota 1" id="n1" title="Insira o valor da nota 1"> <br><br>
+        <input type="Number" placeholder="Nota 2" id="n2" title="Insira o valor da nota 2"> <br><br>
+        <input type="Number" placeholder="Nota 3" id="n3" title="Insira o valor da nota 3"> <br><br>
+        <input type="Number" placeholder="Nota 4" id="n4" title="Insira o valor da nota 4"> <br><br>
+        <input type="Button" value="Resultado" disabled="disabled" class="button" id="button" onclick="resultado()" title="Calcula a média das notas e informa o resultado final">
+      
+    </div>
+    <div> 
+      <p id="res" class="res"> <br>  <br> </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
