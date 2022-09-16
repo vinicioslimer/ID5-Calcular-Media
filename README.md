@@ -1,0 +1,2 @@
+# ID5-Calcular Media
+ Desafio da Imersão Dev 5 da Alura. O site deve calcular a média de notas e retornar um resultado par ao usuário.dicionei uma responsividade no botão de ação resultado, ele fica desativado enquanto a pessoa não preencher todos os campos, ao passar o mouse ele aumenta sua dimensão. Fiz o cálculo da média através de um array. A parte mais trabalhosa pra mim foi o CSS, manter cada coisa no lugar
